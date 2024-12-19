@@ -1,4 +1,5 @@
-# Introduction
+# PubRanker
+## Introduction
 The committee’s decision on whether a PhD student will receive a scholarship is often influenced by the number of publications the student has. Applying for a scholarship can be a time-consuming process, involving obtaining a recommendation from the principal investigator (PI), writing a letter of motivation, and preparing a resume. This competition for scholarships often occurs within the departments of the Weizmann Institute of Science. **PubRanker** is designed to help students estimate their chances of winning the fellowship relative to other PhD students in their department.
 
 ## How does it work?
@@ -11,5 +12,5 @@ The committee’s decision on whether a PhD student will receive a scholarship i
 - One plot shows the number of department-specific publications for each student, with the x-axis representing the students' names and the y-axis showing the number of publications within the department.
 - The second plot shows the total number of publications for each student, with the x-axis representing the students' names and the y-axis showing their total publications.
 
-# Conclusion
+## Conclusion
 With the generated data and plots, PhD students using **PubRanker** will be able to estimate their standing in the publication ranking within their department as well as in total. This will help them determine whether they have a competitive chance of winning the scholarship and whether applying for it is worthwhile.
