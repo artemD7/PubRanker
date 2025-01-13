@@ -46,4 +46,4 @@ In the opened GUI window, select the department of Weizmann Institute of Science
 The user is then required to specify whether they wish to check PhD students' publications that have been conducted in collaboration with their respective Principal Investigators (PIs), total publications for each student, or both.
 
 #### Note
-This project was done by Artem Dubovetskyi at [WIS 2024.11 Python course](https://github.com/szabgab/wis-python-course-2024-11) at the Weizmann Institute of Science.
+This project was conducted by Artem Dubovetskyi as part of the [WIS 2024.11 Python course](https://github.com/szabgab/wis-python-course-2024-11) at the Weizmann Institute of Science.
