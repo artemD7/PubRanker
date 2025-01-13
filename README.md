@@ -14,3 +14,13 @@ The committee’s decision on whether a PhD student will receive a scholarship i
 
 ## Conclusion
 With the generated data and plots, PhD students using **PubRanker** will be able to estimate their standing in the publication ranking within their department as well as in total. This will help them determine whether they have a competitive chance of winning the scholarship and whether applying for it is worthwhile.
+
+## Software Dependencies
+
+- Python 3.13
+- BeautifulSoup
+- requests
+- biopython
+- csv
+- datetime
+- os
