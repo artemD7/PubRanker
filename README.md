@@ -24,3 +24,4 @@ With the generated data and plots, PhD students using **PubRanker** will be able
 - csv
 - datetime
 - os
+- tkinter
