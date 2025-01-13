@@ -29,6 +29,13 @@ With the generated data and plots, PhD students using **PubRanker** will be able
 - os
 - tkinter
 
+## Installation
+
+Clone this GitHub repository:
+```bash
+git clone https://github.com/artemD7/PubRanker
+```
+
 ## Starting the application
 The folder containing the project must be opened in the terminal. The application should then be invoked in the terminal using the following command:
 ```bash
