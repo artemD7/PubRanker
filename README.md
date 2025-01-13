@@ -25,3 +25,13 @@ With the generated data and plots, PhD students using **PubRanker** will be able
 - datetime
 - os
 - tkinter
+
+## Starting the application
+The folder containing the project must be opened in the terminal. The application should then be invoked in the terminal using the following command:
+```bash
+python pubranker.py
+```
+## Usage
+In the opened GUI window, select the department of Weizmann Institute of Science for PhD students publication check.
+The user is then required to specify whether they wish to check PhD students' publications that have been conducted in collaboration with their respective Principal Investigators (PIs), total publications for each student, or both.
+
