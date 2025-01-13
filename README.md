@@ -18,6 +18,9 @@ With the generated data and plots, PhD students using **PubRanker** will be able
 ## Software Dependencies
 
 - Python 3.13
+
+### Packages and libraries:
+  
 - BeautifulSoup
 - requests
 - biopython
