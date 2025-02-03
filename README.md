@@ -44,9 +44,7 @@ python PubRanker.py
 ## Usage
 In the opened GUI window, select the department of Weizmann Institute of Science for PhD students publication check.
 The user is then required to specify whether they wish to check "Total publications" for each student or their publications that have been conducted in collaboration with their respective Principal Investigators (PIs) - "Department publications".
-
 <p align="center">
-  <img src="dep_choose.jpg" width="500" style="border-radius: 15px;">
+  <img src="opt_choose.jpg" width="500" style="border-radius: 15px;">
 </p>
-
  <strong>Note:</strong> this project was conducted by Artem Dubovetskyi as part of the [WIS 2024.11 Python course](https://github.com/szabgab/wis-python-course-2024-11) at the Weizmann Institute of Science.
