@@ -12,7 +12,9 @@ The committee’s decision on whether a PhD student will receive a scholarship i
 Depending on the option chosen, **PubRanker** can generate two different plots in an Excel file:
 - The one plot shows the total number of publications for each student, with the x-axis representing the students' names and the y-axis showing their total publications.
 - The second plot shows the number of department-specific publications for each student, with the x-axis representing the students' names and the y-axis showing the number of publications within the department.
-
+<p align="center">
+  <img src="students_plot.jpg" width="500" style="border-radius: 15px;">
+</p>
 
 ## Conclusion
 With the generated data and plots, PhD students using **PubRanker** will be able to estimate their standing in the publication ranking within their department as well as in total. This will help them determine whether they have a competitive chance of winning the scholarship and whether applying for it is worthwhile.
