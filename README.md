@@ -13,7 +13,7 @@ Depending on the option chosen, **PubRanker** can generate two different plots i
 - The one plot shows the total number of publications for each student, with the x-axis representing the students' names and the y-axis showing their total publications.
 - The second plot shows the number of department-specific publications for each student, with the x-axis representing the students' names and the y-axis showing the number of publications within the department.
 <p align="center">
-  <img src="students_plot.jpg" width="1300" height="500" style="border-radius: 15px;">
+  <img src="students_plot.jpg" width="1300" height="400" style="border-radius: 15px;">
 </p>
 
 ## Conclusion
