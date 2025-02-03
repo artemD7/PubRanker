@@ -42,6 +42,10 @@ Clone this GitHub repository:
 ```bash
 git clone https://github.com/artemD7/PubRanker
 ```
+### The files in the repository:
+`PubRanker.py` - the program data file with the script
+
+`students_rating.xlsx`- an example of generated data
 
 ## Starting the application
 The folder containing the project must be opened in the terminal. The application should then be invoked in the terminal using the following command:
