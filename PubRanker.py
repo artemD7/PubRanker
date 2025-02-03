@@ -135,27 +135,29 @@ def generate_excel_with_ranking(search_list):
         print(f'search term: {search_name}, number of publications: {count}')
     
     sorted_data_students_counts = sorted(data_students_counts, key=lambda x: x[1], reverse=True)
+    try:
+        workbook = xlsxwriter.Workbook('students_rating.xlsx')
+        worksheet = workbook.add_worksheet()
+        worksheet.write_column('A1', [row[0] for row in sorted_data_students_counts])
+        worksheet.write_column('B1', [row[1] for row in sorted_data_students_counts])
 
-    workbook = xlsxwriter.Workbook('students_rating.xlsx')
-    worksheet = workbook.add_worksheet()
-    worksheet.write_column('A1', [row[0] for row in sorted_data_students_counts])
-    worksheet.write_column('B1', [row[1] for row in sorted_data_students_counts])
+        chart = workbook.add_chart({'type': 'column'})
+        data_len = len(sorted_data_students_counts)
+        chart.add_series({
+            'name': "Publication Ranking",
+            'categories': f'=Sheet1!$A$1:$A${data_len}',
+            'values': f'=Sheet1!$B$1:$B${data_len}',
+        })
 
-    chart = workbook.add_chart({'type': 'column'})
-    data_len = len(sorted_data_students_counts)
-    chart.add_series({
-        'name': "Publication Ranking",
-        'categories': f'=Sheet1!$A$1:$A${data_len}',
-        'values': f'=Sheet1!$B$1:$B${data_len}',
-    })
-
-    chart.set_title({'name': "Student's Publication Ranking"})
-    chart.set_x_axis({'name': 'Students Names'})
-    chart.set_y_axis({'name': 'Number of Publications'})
-    worksheet.insert_chart('D2', chart)
-    print('"students_rating.xlsx" file was generated in the current directory')
-    workbook.close()
-
+        chart.set_title({'name': "Student's Publication Ranking"})
+        chart.set_x_axis({'name': 'Students Names'})
+        chart.set_y_axis({'name': 'Number of Publications'})
+        worksheet.insert_chart('D2', chart)
+        workbook.close()
+        print('"students_rating.xlsx" file was generated in the current directory')
+    except:
+        print("!Please close the Excel file. The new file can't be generated when the old one is open!")
+        quit()
 # Callback function to update combobox based on selected department
 def update_combobox(*args):
     department = clicked.get()
