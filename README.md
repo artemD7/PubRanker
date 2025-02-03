@@ -30,6 +30,11 @@ With the generated data and plots, PhD students using **PubRanker** will be able
 - pymed
 - xlswriter
 - time
+  
+Can be installed with:
+```bash
+pip install tkinter bs4 requests pymed xlswriter time
+```
 
 ## Installation
 
