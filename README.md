@@ -14,3 +14,35 @@ The committee’s decision on whether a PhD student will receive a scholarship i
 
 ## Conclusion
 With the generated data and plots, PhD students using **PubRanker** will be able to estimate their standing in the publication ranking within their department as well as in total. This will help them determine whether they have a competitive chance of winning the scholarship and whether applying for it is worthwhile.
+
+## Software Dependencies
+
+- Python 3.13
+
+### Packages and libraries:
+  
+- BeautifulSoup
+- requests
+- biopython
+- csv
+- datetime
+- os
+- tkinter
+
+## Installation
+
+Clone this GitHub repository:
+```bash
+git clone https://github.com/artemD7/PubRanker
+```
+
+## Starting the application
+The folder containing the project must be opened in the terminal. The application should then be invoked in the terminal using the following command:
+```bash
+python pubranker.py
+```
+## Usage
+In the opened GUI window, select the department of Weizmann Institute of Science for PhD students publication check.
+The user is then required to specify whether they wish to check PhD students' publications that have been conducted in collaboration with their respective Principal Investigators (PIs), total publications for each student, or both.
+
+ <strong>Note:</strong> this project was conducted by Artem Dubovetskyi as part of the [WIS 2024.11 Python course](https://github.com/szabgab/wis-python-course-2024-11) at the Weizmann Institute of Science.
