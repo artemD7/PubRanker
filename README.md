@@ -9,7 +9,7 @@ The committee’s decision on whether a PhD student will receive a scholarship i
 2. **Department-specific publications**: The app queries the PubMed database to find publications coauthored by each student and their PI, estimating how many publications each student has within their Weizmann Institute department.
 
 
-Depending on the option chosen, **PubRanker** can generate two different plots in an Excel file:
+Depending on the option chosen, **PubRanker** can generate one of two different plots in an Excel file:
 - The first plot shows the total number of publications for each student, with the x-axis representing the students' names and the y-axis showing their total publications.
 - The second plot shows the number of department-specific publications for each student, with the x-axis representing the students' names and the y-axis showing the number of publications within the department.
 <p align="center">
