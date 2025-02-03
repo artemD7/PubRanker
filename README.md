@@ -58,6 +58,6 @@ The user is then required to specify whether they wish to check "Total publicati
 <p align="center">
   <img src="opt_choose.jpg" width="600" height="300" style="border-radius: 15px;">
 </p>
- <strong>Note:</strong> in the project, the three departments are available to check for PhD students' publications. Please be aware that the program can help the user estimate their chances for applying to the scholarship. However, in some cases, the student or PI names in their papers may differ from those listed on the website. That's why an additional publication count check is sometimes required, especially for students with very high or zero publications. 
+ <strong>Note:</strong> in the project, the three departments are available to check for PhD students' publications. Please be aware that the program can help the user estimate their chances for applying to the scholarship. However, in some cases, the student or PI names in their papers may differ from those listed on the website. That's why an additional publication count check is sometimes required, especially for students with high ammount or zero publications. 
 
 This project was conducted by Artem Dubovetskyi as part of the [WIS 2024.11 Python course](https://github.com/szabgab/wis-python-course-2024-11) at the Weizmann Institute of Science.
